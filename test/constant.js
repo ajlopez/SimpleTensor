@@ -43,6 +43,7 @@ exports['create matrix constant'] = function (test) {
 	test.ok(!result.isNumber());
 	test.ok(!result.isVector());
 	test.ok(result.isMatrix());
+	test.ok(!result.isSquareMatrix());
 };
 
 exports['create constant using value and shape option'] = function (test) {
@@ -57,6 +58,7 @@ exports['determinant from simple 2x2 matrix'] = function (test) {
 	var result = st.constant([ [ 1, 2 ], [ 3, 4 ] ]);
 	
 	test.ok(result);
+	test.ok(result.isSquareMatrix());
 	test.equal(result.determinant(), -2);
 };
 
