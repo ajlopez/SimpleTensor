@@ -17,6 +17,7 @@ TBD
 ## References
 
 - [Determinant](https://en.wikipedia.org/wiki/Determinant)
+- [Online Determinant Calculator](http://matrix.reshish.com/detCalculation.php)
 
 ## Samples
 
