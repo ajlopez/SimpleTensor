@@ -41,3 +41,16 @@ exports['create constant using value and shape option'] = function (test) {
 	test.deepEqual(result.value(), [ [ 0, 0, 0 ], [ 0, 0, 0 ] ]);
 };
 
+exports['determinant from simple 2x2 matrix'] = function (test) {
+	var result = st.constant([ [ 1, 2 ], [ 3, 4 ] ]);
+	
+	test.ok(result);
+	test.equal(result.determinant(), -2);
+};
+
+exports['determinant from simple 3x3 matrix'] = function (test) {
+	var result = st.constant([ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ]);
+	
+	test.ok(result);
+	test.equal(result.determinant(), 0);
+};

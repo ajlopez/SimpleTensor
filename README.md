@@ -16,7 +16,7 @@ TBD
 
 ## References
 
-TBD
+- [Determinant](https://en.wikipedia.org/wiki/Determinant)
 
 ## Samples
 
