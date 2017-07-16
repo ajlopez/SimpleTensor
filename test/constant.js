@@ -25,3 +25,11 @@ exports['create vector constant'] = function (test) {
 	test.deepEqual(result.value(), [ 1, 2, 3, 5, 7, 42 ]);
 };
 
+exports['create matrix constant'] = function (test) {
+	var result = st.constant([ [ 1, 2, 3 ], [ 5, 7, 42 ] ]);
+	
+	test.ok(result);
+	test.deepEqual(result.shape(), [ 2, 3 ]);
+	test.deepEqual(result.value(), [ [ 1, 2, 3 ], [ 5, 7, 42 ] ]);
+};
+
