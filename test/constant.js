@@ -7,6 +7,10 @@ exports['create constant rank 0'] = function (test) {
 	test.ok(result);
 	test.equal(result.rank(), 0);
 	test.equal(result.value(), 42);
+
+	test.ok(result.isNumber());
+	test.ok(!result.isVector());
+	test.ok(!result.isMatrix());
 };
 
 exports['create constant shape []'] = function (test) {
@@ -23,6 +27,10 @@ exports['create vector constant'] = function (test) {
 	test.ok(result);
 	test.deepEqual(result.shape(), [ 6 ]);
 	test.deepEqual(result.value(), [ 1, 2, 3, 5, 7, 42 ]);
+
+	test.ok(!result.isNumber());
+	test.ok(result.isVector());
+	test.ok(!result.isMatrix());
 };
 
 exports['create matrix constant'] = function (test) {
@@ -31,6 +39,10 @@ exports['create matrix constant'] = function (test) {
 	test.ok(result);
 	test.deepEqual(result.shape(), [ 2, 3 ]);
 	test.deepEqual(result.value(), [ [ 1, 2, 3 ], [ 5, 7, 42 ] ]);
+
+	test.ok(!result.isNumber());
+	test.ok(!result.isVector());
+	test.ok(result.isMatrix());
 };
 
 exports['create constant using value and shape option'] = function (test) {
