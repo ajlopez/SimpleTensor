@@ -54,7 +54,7 @@ exports['add matrix to matrix'] = function (test) {
 	test.ok(!oper.isVector());
 	test.ok(oper.isMatrix());
 	test.deepEqual(oper.shape(), [ 2, 3 ]);
-	test.deepEqual(oper.value(), [ [ 3, 5, 7 ], [ 13, 14, 17 ] ]);
+	test.deepEqual(oper.value(), [ [ 3, 5, 7 ], [ 13, 15, 17 ] ]);
 	
 	var result = oper.evaluate();
 	
@@ -62,5 +62,5 @@ exports['add matrix to matrix'] = function (test) {
 	test.ok(!result.isVector());
 	test.ok(result.isMatrix());
 	test.deepEqual(result.shape(), [ 2, 3 ]);
-	test.deepEqual(result.value(), [ [ 3, 5, 7 ], [ 13, 14, 17 ] ]);
+	test.deepEqual(result.value(), [ [ 3, 5, 7 ], [ 13, 15, 17 ] ]);
 };
