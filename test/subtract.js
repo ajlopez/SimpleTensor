@@ -23,3 +23,24 @@ exports['subtract numbers'] = function (test) {
 	test.equal(result.value(), 42);
 };
 
+exports['subtract vector from vector'] = function (test) {
+	var value1 = st.constant([ 1, 2, 3 ]);
+	var value2 = st.constant([ 2, 3, 4 ]);
+	
+	var oper = st.subtract(value1, value2);
+	
+	test.ok(!oper.isNumber());
+	test.ok(oper.isVector());
+	test.ok(!oper.isMatrix());
+	test.deepEqual(oper.shape(), [ 3 ]);
+	test.deepEqual(oper.value(), [ -1, -1, -1 ]);
+	
+	var result = oper.evaluate();
+	
+	test.ok(!result.isNumber());
+	test.ok(result.isVector());
+	test.ok(!result.isMatrix());
+	test.deepEqual(result.shape(), [ 3 ]);
+	test.deepEqual(result.value(), [ -1, -1, -1 ]);
+};
+
