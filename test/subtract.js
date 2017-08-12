@@ -44,3 +44,23 @@ exports['subtract vector from vector'] = function (test) {
 	test.deepEqual(result.value(), [ -1, -1, -1 ]);
 };
 
+exports['subtract matrix from matrix'] = function (test) {
+	var value1 = st.constant([ [ 1, 2, 3 ], [ 3, 4, 5 ] ]);
+	var value2 = st.constant([ [ 2, 3, 4 ], [ 10, 11, 12 ] ]);
+	
+	var oper = st.subtract(value1, value2);
+	
+	test.ok(!oper.isNumber());
+	test.ok(!oper.isVector());
+	test.ok(oper.isMatrix());
+	test.deepEqual(oper.shape(), [ 2, 3 ]);
+	test.deepEqual(oper.value(), [ [ -1, -1, -1 ], [ -7, -7, -7 ] ]);
+	
+	var result = oper.evaluate();
+	
+	test.ok(!result.isNumber());
+	test.ok(!result.isVector());
+	test.ok(result.isMatrix());
+	test.deepEqual(result.shape(), [ 2, 3 ]);
+	test.deepEqual(oper.value(), [ [ -1, -1, -1 ], [ -7, -7, -7 ] ]);
+};
