@@ -44,3 +44,25 @@ exports['pow vectors'] = function (test) {
 	test.deepEqual(result.shape(), [ 3 ]);
 	test.deepEqual(result.value(), [ 4, 27, 4 ]);
 };
+
+exports['pow matrices'] = function (test) {
+	var matrix1 = st.constant([[ 2, 3 ], [ 4, 5 ] ]);
+	var matrix2 = st.constant([[ 2, 3 ], [ 1, 2 ] ]);
+	
+	var oper = st.pow(matrix1, matrix2);
+	
+	test.ok(!oper.isNumber());
+	test.ok(!oper.isVector());
+	test.ok(oper.isMatrix());
+	test.deepEqual(oper.shape(), [ 2, 2 ]);
+	
+	test.deepEqual(oper.value(), [[ 4, 27 ], [ 4, 25 ] ]);
+	
+	var result = oper.evaluate();
+	
+	test.ok(!result.isNumber());
+	test.ok(!result.isVector());
+	test.ok(result.isMatrix());
+	test.deepEqual(result.shape(), [ 2, 2 ]);
+	test.deepEqual(result.value(), [[ 4, 27 ], [ 4, 25 ] ]);
+};
