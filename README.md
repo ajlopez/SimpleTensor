@@ -19,6 +19,7 @@ TBD
 - [Determinant](https://en.wikipedia.org/wiki/Determinant)
 - [Online Determinant Calculator](http://matrix.reshish.com/detCalculation.php)
 - [Inverse of a Matrix using Minors, Cofactors and Adjugate](https://www.mathsisfun.com/algebra/matrix-inverse-minors-cofactors-adjugate.html)
+- [Matrix Multiplication Calculator](https://matrix.reshish.com/multCalculation.php)
 
 ## Samples
 
