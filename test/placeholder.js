@@ -31,3 +31,19 @@ exports['evaluate vector in placeholder'] = function (test) {
 	test.deepEqual(result.evaluate({ x: [ 1, 2, 3 ] }).value(), [ 1, 2, 3 ]);
 	test.equal(result.evaluate({ y: 42 }), null);
 };
+
+exports['evaluate matrix in placeholder'] = function (test) {
+	var result = st.placeholder('x', [ 3, 2 ]);
+	
+	test.ok(result);
+	test.equal(result.rank(), 2);
+	test.deepEqual(result.shape(), [ 3, 2 ]);
+	test.equal(result.value(), null);
+
+	test.ok(!result.isNumber());
+	test.ok(!result.isVector());
+	test.ok(result.isMatrix());
+	
+	test.deepEqual(result.evaluate({ x: [ [ 1, 2, 3 ], [ 4, 5, 6 ] ] }).value(), [ [ 1, 2, 3 ], [ 4, 5, 6 ] ]);
+	test.equal(result.evaluate({ y: 42 }), null);
+};
