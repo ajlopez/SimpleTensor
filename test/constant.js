@@ -68,14 +68,3 @@ exports['determinant from simple 3x3 matrix'] = function (test) {
 	test.ok(result);
 	test.equal(result.determinant(), 0);
 };
-
-exports['multiply matrices'] = function (test) {
-	var matrix1 = st.constant([ [ 1, 2, 3 ], [ 4, 5, 6 ] ]);
-	var matrix2 = st.constant([ [ 1, 2 ], [ 3, 4 ], [ 5, 6 ] ]);
-	
-	var result = matrix1.multiply(matrix2);
-	
-	test.ok(result);
-	test.deepEqual(result.shape(), [ 2, 2 ]);
-	test.deepEqual(result.value(), [ [ 22, 28 ], [ 49,  64 ] ]);
-};

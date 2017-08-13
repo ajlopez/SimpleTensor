@@ -20,6 +20,7 @@ TBD
 - [Online Determinant Calculator](http://matrix.reshish.com/detCalculation.php)
 - [Inverse of a Matrix using Minors, Cofactors and Adjugate](https://www.mathsisfun.com/algebra/matrix-inverse-minors-cofactors-adjugate.html)
 - [Matrix Multiplication Calculator](https://matrix.reshish.com/multCalculation.php)
+- [Inheritance in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
 
 ## Samples
 
