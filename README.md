@@ -20,6 +20,7 @@ TBD
 
 - [API Documentation](https://www.tensorflow.org/api_docs/)
 - [Neural Network](https://www.tensorflow.org/api_guides/python/nn)
+- [Image Recognition](https://www.tensorflow.org/tutorials/image_recognition)
 
 ### Mathematics
 
