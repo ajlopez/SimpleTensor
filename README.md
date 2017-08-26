@@ -21,6 +21,7 @@ TBD
 - [API Documentation](https://www.tensorflow.org/api_docs/)
 - [Neural Network](https://www.tensorflow.org/api_guides/python/nn)
 - [Image Recognition](https://www.tensorflow.org/tutorials/image_recognition)
+- [TFLearn: Deep learning library featuring a higher-level API for TensorFlow](http://tflearn.org/)
 
 ### Mathematics
 
