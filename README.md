@@ -23,6 +23,14 @@ TBD
 - [Image Recognition](https://www.tensorflow.org/tutorials/image_recognition)
 - [TFLearn: Deep learning library featuring a higher-level API for TensorFlow](http://tflearn.org/)
 
+### Machine Learning
+- [MNIST For ML Beginners](https://www.tensorflow.org/get_started/mnist/beginners)
+- [Deep MNIST for Experts](https://www.tensorflow.org/get_started/mnist/pros)
+
+### Neural Networks
+- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
+- [Conv Nets: A Modular Perspective](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
+
 ### Mathematics
 
 - [Determinant](https://en.wikipedia.org/wiki/Determinant)
