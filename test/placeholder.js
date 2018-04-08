@@ -12,8 +12,11 @@ exports['evaluate number in placeholder'] = function (test) {
 	test.ok(!result.isVector());
 	test.ok(!result.isMatrix());
 	
-	test.equal(result.evaluate({ x: 42 }).value(), 42);
-	test.equal(result.evaluate({ y: 42 }), null);
+	test.ok(result.context({ x: st.constant(42) }));
+	test.equal(result.evaluate().value(), 42);
+
+	test.ok(result.context({ y: st.constant(42) }));
+	test.equal(result.evaluate(), null);
 };
 
 exports['evaluate vector in placeholder'] = function (test) {
@@ -28,8 +31,11 @@ exports['evaluate vector in placeholder'] = function (test) {
 	test.ok(result.isVector());
 	test.ok(!result.isMatrix());
 	
-	test.deepEqual(result.evaluate({ x: [ 1, 2, 3 ] }).value(), [ 1, 2, 3 ]);
-	test.equal(result.evaluate({ y: 42 }), null);
+	test.ok(result.context({ x: st.constant([ 1, 2, 3 ]) }));
+	test.deepEqual(result.evaluate().value(), [ 1, 2, 3 ]);
+	
+	test.ok(result.context({ y: 42 }));
+	test.equal(result.evaluate(), null);
 };
 
 exports['evaluate matrix in placeholder'] = function (test) {
@@ -44,6 +50,9 @@ exports['evaluate matrix in placeholder'] = function (test) {
 	test.ok(!result.isVector());
 	test.ok(result.isMatrix());
 	
-	test.deepEqual(result.evaluate({ x: [ [ 1, 2, 3 ], [ 4, 5, 6 ] ] }).value(), [ [ 1, 2, 3 ], [ 4, 5, 6 ] ]);
-	test.equal(result.evaluate({ y: 42 }), null);
+	test.ok(result.context({ x: st.constant([ [ 1, 2, 3 ], [ 4, 5, 6 ] ] ) }));
+	test.deepEqual(result.evaluate().value(), [ [ 1, 2, 3 ], [ 4, 5, 6 ] ]);
+	
+	test.ok(result.context({ y: st.constant(42) }));
+	test.equal(result.evaluate(), null);
 };
