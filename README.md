@@ -24,6 +24,7 @@ TBD
 - [TFLearn: Deep learning library featuring a higher-level API for TensorFlow](http://tflearn.org/)
 - [Contextual Chatbots with Tensorflow](https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077)
 - [I built a chatbot in 2 hours and this is what I learned](https://hackernoon.com/i-built-a-chatbot-in-2-hours-and-this-is-what-i-learned-f5dbb4ba5fcc)
+- [Why Swift for TensorFlow?](https://github.com/tensorflow/swift/blob/master/docs/WhySwiftForTensorFlow.md)
 
 ### Machine Learning
 - [MNIST For ML Beginners](https://www.tensorflow.org/get_started/mnist/beginners)
