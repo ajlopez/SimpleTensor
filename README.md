@@ -16,6 +16,10 @@ TBD
 
 ## References
 
+### Books
+
+- Pro Deep Learning with TensorFlow, Santanu Pattanayak
+
 ### TensorFlow
 
 - [API Documentation](https://www.tensorflow.org/api_docs/)
