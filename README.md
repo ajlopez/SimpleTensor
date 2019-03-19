@@ -30,6 +30,11 @@ TBD
 - [I built a chatbot in 2 hours and this is what I learned](https://hackernoon.com/i-built-a-chatbot-in-2-hours-and-this-is-what-i-learned-f5dbb4ba5fcc)
 - [Why Swift for TensorFlow?](https://github.com/tensorflow/swift/blob/master/docs/WhySwiftForTensorFlow.md)
 
+### TensorFlow 2.0
+
+- [AutoGraph: Easy control flow for graphs](https://www.tensorflow.org/guide/autograph)
+- [tf.function and AutoGraph in TensorFlow 2.0](https://www.tensorflow.org/alpha/guide/autograph)
+
 ### Machine Learning
 - [MNIST For ML Beginners](https://www.tensorflow.org/get_started/mnist/beginners)
 - [Deep MNIST for Experts](https://www.tensorflow.org/get_started/mnist/pros)
