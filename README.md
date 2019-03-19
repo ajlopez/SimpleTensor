@@ -29,6 +29,7 @@ TBD
 - [Contextual Chatbots with Tensorflow](https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077)
 - [I built a chatbot in 2 hours and this is what I learned](https://hackernoon.com/i-built-a-chatbot-in-2-hours-and-this-is-what-i-learned-f5dbb4ba5fcc)
 - [Why Swift for TensorFlow?](https://github.com/tensorflow/swift/blob/master/docs/WhySwiftForTensorFlow.md)
+- [DataSets](https://www.tensorflow.org/datasets/datasets)
 
 ### TensorFlow 2.0
 
