@@ -31,11 +31,13 @@ TBD
 - [Why Swift for TensorFlow?](https://github.com/tensorflow/swift/blob/master/docs/WhySwiftForTensorFlow.md)
 - [DataSets](https://www.tensorflow.org/datasets/datasets)
 - [TensorFlow Lite](https://www.tensorflow.org/lite)
+- [Calculus isn’t boring — Tensorflow Part2](https://becominghuman.ai/calculus-isnt-boring-tensorflow-part2-4f662a2bb998)
 
 ### TensorFlow 2.0
 
 - [AutoGraph: Easy control flow for graphs](https://www.tensorflow.org/guide/autograph)
 - [tf.function and AutoGraph in TensorFlow 2.0](https://www.tensorflow.org/alpha/guide/autograph)
+- [TensorFlow is dead, long live TensorFlow!](https://hackernoon.com/tensorflow-is-dead-long-live-tensorflow-49d3e975cf04)
 
 ### Machine Learning
 - [MNIST For ML Beginners](https://www.tensorflow.org/get_started/mnist/beginners)
