@@ -42,6 +42,8 @@ TBD
 ### Machine Learning
 - [MNIST For ML Beginners](https://www.tensorflow.org/get_started/mnist/beginners)
 - [Deep MNIST for Experts](https://www.tensorflow.org/get_started/mnist/pros)
+- [Introduction to TensorFlow for Artificial Intelligence](https://www.coursera.org/learn/introduction-tensorflow)
+
 
 ### Neural Networks
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
