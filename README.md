@@ -32,6 +32,8 @@ TBD
 - [DataSets](https://www.tensorflow.org/datasets/datasets)
 - [TensorFlow Lite](https://www.tensorflow.org/lite)
 - [Calculus isn’t boring — Tensorflow Part2](https://becominghuman.ai/calculus-isnt-boring-tensorflow-part2-4f662a2bb998)
+- [TensorFlow.js](https://www.tensorflow.org/js)
+- [Learn Tensorflow 1: The Hello World of Machine Learning](https://codelabs.developers.google.com/codelabs/tensorflow-lab1-helloworld/index.html?index=..%2F..index#0)
 
 ### TensorFlow 2.0
 
