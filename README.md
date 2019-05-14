@@ -34,6 +34,7 @@ TBD
 - [Calculus isn’t boring — Tensorflow Part2](https://becominghuman.ai/calculus-isnt-boring-tensorflow-part2-4f662a2bb998)
 - [TensorFlow.js](https://www.tensorflow.org/js)
 - [Learn Tensorflow 1: The Hello World of Machine Learning](https://codelabs.developers.google.com/codelabs/tensorflow-lab1-helloworld/index.html?index=..%2F..index#0)
+- [Tensors and Operations](https://www.tensorflow.org/js/guide/tensors_operations)
 
 ### TensorFlow 2.0
 
@@ -50,6 +51,7 @@ TBD
 ### Neural Networks
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 - [Conv Nets: A Modular Perspective](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
+- [Simple Neural Network Model Using TensorFlow Eager Execution](https://towardsdatascience.com/simple-neural-network-model-using-tensorflow-eager-execution-997bbadef84a)
 
 ### Mathematics
 
