@@ -52,6 +52,7 @@ TBD
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 - [Conv Nets: A Modular Perspective](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
 - [Simple Neural Network Model Using TensorFlow Eager Execution](https://towardsdatascience.com/simple-neural-network-model-using-tensorflow-eager-execution-997bbadef84a)
+- [Deep Learning with Convolutional Neural Networks](https://medium.com/code-gin/deep-learning-with-convolutional-neural-networks-608f51319f9c)
 
 ### Mathematics
 
