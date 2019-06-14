@@ -16,4 +16,7 @@ exports['math package'] = function (test) {
     
     test.equal(st.math.cosh, st.cosh);
     test.equal(st.math.sinh, st.sinh);
+    
+    test.equal(st.math.acosh, st.acosh);
+    test.equal(st.math.asinh, st.asinh);
 };
