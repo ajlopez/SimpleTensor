@@ -36,6 +36,7 @@ TBD
 - [Learn Tensorflow 1: The Hello World of Machine Learning](https://codelabs.developers.google.com/codelabs/tensorflow-lab1-helloworld/index.html?index=..%2F..index#0)
 - [Tensors and Operations](https://www.tensorflow.org/js/guide/tensors_operations)
 - [New Technique Speeds up Deep-Learning Inference on TensorFlow by 2x](https://www.infoq.com/news/2019/08/deep-learning-speedup/)
+- [Understand TensorFlow by mimicking its API from scratch](https://medium.com/@d3lm/understand-tensorflow-by-mimicking-its-api-from-scratch-faa55787170d)
 
 ### TensorFlow 2.0
 
