@@ -5,6 +5,7 @@ exports['math package'] = function (test) {
     test.ok(st.math);
     test.equal(typeof st.math, 'object');
     test.equal(st.math.abs, st.abs);
+    test.equal(st.math.exp, st.exp);
     
     test.equal(st.math.cos, st.cos);
     test.equal(st.math.sin, st.sin);
@@ -22,3 +23,4 @@ exports['math package'] = function (test) {
     test.equal(st.math.asinh, st.asinh);
     test.equal(st.math.atanh, st.atanh);
 };
+
